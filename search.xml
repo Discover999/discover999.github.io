@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Win10 查看占用端口</title>
+      <link href="/2022/09/20/Win10-catport/"/>
+      <url>/2022/09/20/Win10-catport/</url>
+      
+        <content type="html"><![CDATA[<ol><li><h3 id="打开-CMD-命令行"><a href="#打开-CMD-命令行" class="headerlink" title="打开 CMD 命令行"></a>打开 CMD 命令行</h3></li><li><h3 id="查看所有端口占用"><a href="#查看所有端口占用" class="headerlink" title="查看所有端口占用"></a>查看所有端口占用</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">netstat -ano</span><br></pre></td></tr></table></figure></li></ol><p><img src="https://raw.githubusercontent.com/Discover999/TyporaPic/master/1.png" alt="1"></p><ol start="3"><li><h3 id="查找特定端口号占用"><a href="#查找特定端口号占用" class="headerlink" title="查找特定端口号占用"></a>查找特定端口号占用</h3><p>找到占用8080端口的程序PID.</p> <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">netstat -aon|findstr <span class="string">&quot;8080&quot;</span></span><br></pre></td></tr></table></figure></li></ol><p><img src="https://raw.githubusercontent.com/Discover999/TyporaPic/master/2.png" alt="2"></p><ol start="4"><li><h3 id="寻找进程"><a href="#寻找进程" class="headerlink" title="寻找进程"></a>寻找进程</h3><p> 找到PID为10108的进程</p> <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tasklist|findstr <span class="string">&quot;10108&quot;</span></span><br></pre></td></tr></table></figure></li></ol><p><img src="https://raw.githubusercontent.com/Discover999/TyporaPic/master/3.png" alt="3"></p><ol start="5"><li><h3 id="释放端口"><a href="#释放端口" class="headerlink" title="释放端口"></a>释放端口</h3> 打开任务管理器，点击详细信息，找到对应的进程并确认PID为10108，结束进程，端口就被释放了</li></ol><p><img src="https://raw.githubusercontent.com/Discover999/TyporaPic/master/4.png" alt="4"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Win10 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Win10 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2022/09/14/hello-world/"/>
       <url>/2022/09/14/hello-world/</url>
