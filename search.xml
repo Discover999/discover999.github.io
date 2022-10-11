@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Github搭建Typora图床</title>
+      <link href="/2022/10/11/Github-pic/"/>
+      <url>/2022/10/11/Github-pic/</url>
+      
+        <content type="html"><![CDATA[<h1 id=""><a href="#" class="headerlink" title=""></a></h1><h1 id="Github搭建Typora图床"><a href="#Github搭建Typora图床" class="headerlink" title="Github搭建Typora图床"></a>Github搭建Typora图床</h1><h2 id="一、设置Github"><a href="#一、设置Github" class="headerlink" title="一、设置Github"></a>一、设置Github</h2><p><img src="https://raw.githubusercontent.com/Decoow/TyporaPic/master/image-20221006163253104.png" alt="image-20221006163253104"></p><h2 id="二、获取-Github-token"><a href="#二、获取-Github-token" class="headerlink" title="二、获取 Github token"></a>二、获取 Github token</h2><p>点击头像，打开 Settings</p><p>​<strong>Settings</strong> -&gt;  <strong>Developer settings</strong> -&gt; <strong>Personal access tokens</strong></p><p><img src="https://raw.githubusercontent.com/Decoow/TyporaPic/master/image-1011533562.png" alt="image-1011533562"></p><p><img src="https://raw.githubusercontent.com/Decoow/TyporaPic/master/image-20221006163456041.png" alt="image-20221006163456041"></p><p><img src="C:/Users/13189/AppData/Roaming/Typora/typora-user-images/image-20221006163815643.png" alt="image-20221006163815643"></p><p>点击 <strong>Generate token</strong> 生成 Token</p><p>注：请注意，一定不要忘记保存该token，token仅展示一次，请务必复制保存。</p><p><img src="https://raw.githubusercontent.com/Decoow/TyporaPic/master/image-202210061637581241.png" alt="image-20221006163758124"></p><h2 id="三、设置Typora"><a href="#三、设置Typora" class="headerlink" title="三、设置Typora"></a>三、设置Typora</h2><p>打开 ‘<strong>文件</strong>‘ -&gt; ‘<strong>偏好设置</strong>‘</p><p><img src="https://raw.githubusercontent.com/Decoow/TyporaPic/master/image-20221006160206771.png" alt="image-20221006160206777"></p><p><img src="https://raw.githubusercontent.com/Decoow/TyporaPic/master/image-202210061604202021.png" alt="image-20221006160420202"></p><p>选择 “<strong>下载或更新</strong>”</p><p><img src="https://raw.githubusercontent.com/Decoow/TyporaPic/master/image-20221011134341594.png" alt="image-20221011134341594"></p><p><img src="https://raw.githubusercontent.com/Decoow/TyporaPic/master/image-20221011134430164.png" alt="image-20221011134430164"></p><p><img src="https://raw.githubusercontent.com/Decoow/TyporaPic/master/image-20221011134424250.png" alt="image-20221011134424250"></p><p><img src="https://raw.githubusercontent.com/Decoow/TyporaPic/master/image-20221006164233761.png" alt="image-20221006164233761"></p><p>填写配置文件如下：</p><figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;picBed&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;uploader&quot;</span><span class="punctuation">:</span> <span class="string">&quot;github&quot;</span><span class="punctuation">,</span> <span class="comment">// 代表当前的默认上传图床为 github</span></span><br><span class="line">    <span class="attr">&quot;github&quot;</span><span class="punctuation">:</span> </span><br><span class="line">        <span class="punctuation">&#123;</span></span><br><span class="line">          <span class="attr">&quot;repo&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Decoow/TyporaPic&quot;</span><span class="punctuation">,</span> <span class="comment">// 仓库名，格式是username/reponame</span></span><br><span class="line">          <span class="attr">&quot;token&quot;</span><span class="punctuation">:</span> <span class="string">&quot;ghp_xxxxxxxxxxxxxxx&quot;</span><span class="punctuation">,</span> <span class="comment">// 获取到的github token*</span></span><br><span class="line">          <span class="attr">&quot;branch&quot;</span><span class="punctuation">:</span> <span class="string">&quot;master&quot;</span> <span class="comment">// 分支名，默认是master</span></span><br><span class="line">        <span class="punctuation">&#125;</span></span><br><span class="line">    <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;picgoPlugins&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span><span class="punctuation">&#125;</span> <span class="comment">// 为插件预留</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure><p><img src="https://raw.githubusercontent.com/Decoow/TyporaPic/master/image-20221006164108784.png" alt="image-20221006164108784"></p><h2 id="四、验证上传"><a href="#四、验证上传" class="headerlink" title="四、验证上传"></a>四、验证上传</h2><p><img src="https://raw.githubusercontent.com/Decoow/TyporaPic/master/image-20221006164505637.png" alt="image-20221006164505637"></p><p><img src="https://raw.githubusercontent.com/Decoow/TyporaPic/master/image-20221011132455706.png" alt="image-20221011132455706"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+            <tag> Github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>利用Github搭建Hexo博客</title>
       <link href="/2022/10/11/Github-Hexo/"/>
       <url>/2022/10/11/Github-Hexo/</url>
@@ -20,9 +47,9 @@
       
         <tags>
             
-            <tag> Hexo </tag>
-            
             <tag> 教程 </tag>
+            
+            <tag> Github </tag>
             
         </tags>
       
