@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Android Studio汉化教程</title>
+      <link href="/2022/10/20/AndroidStudio-chinese/"/>
+      <url>/2022/10/20/AndroidStudio-chinese/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Android-Studio-汉化教程"><a href="#Android-Studio-汉化教程" class="headerlink" title="Android Studio 汉化教程"></a>Android Studio 汉化教程</h1><p>Android Studio 是开发 Android 应用程序的官方 IDE，是 Android 开发者经常使用的工具。</p><p>而 Android Studio 的默认界面语言是英语，如果要改成中文的界面就需要安装语言包插件，但是在 Android Studio 的 Plugins Marketplace 上搜索 Chinese 却发现搜不到这个语言包插件了。</p><p>因为 Android Studio 是基于 IntelliJ Platform 构建的，理论上它们的插件是可以共用的。所以，我们只要在这个网站下载离线插件手动安装就可以了。</p><p>具体步骤如下：</p><ol><li><strong>进入 IntelliJ Platform 插件页面</strong></li></ol><p><a href="https://plugins.jetbrains.com/plugin/13710-chinese-simplified-language-pack----/">Chinese (Simplified) Language Pack &#x2F; 中文语言包</a></p><p><img src="https://gcore.jsdelivr.net/gh/Discover999/TyporaPic@master/image-20221020100937272.png" alt="image-20221020100937272"></p><ol start="2"><li><strong>点击 <code>GET</code></strong></li></ol><p><img src="https://gcore.jsdelivr.net/gh/Discover999/TyporaPic@master/image-20221020101011981.png" alt="image-20221020101011981"></p><ol start="3"><li><strong>查看安装的 AS 版本</strong></li></ol><p>​这里看到是 <code>2021.3.1 _ 213</code></p><p><img src="https://gcore.jsdelivr.net/gh/Discover999/TyporaPic@master/image-20221020102412821.png" alt="image-20221020102412821"></p><ol start="4"><li><strong>选择最适合的汉化插件，点击 <code>Download</code></strong></li></ol><p><img src="https://gcore.jsdelivr.net/gh/Discover999/TyporaPic@master/image-20221020102651777.png" alt="image-20221020102651777"></p><ol start="5"><li><strong>打开刚下载的压缩包并解压，获得 <code>.jar</code> 文件</strong></li></ol><p><img src="https://gcore.jsdelivr.net/gh/Discover999/TyporaPic@master/image-20221020102904502.png" alt="image-20221020102904502"></p><ol start="6"><li><strong>打开 Android Studio 进行操作</strong></li></ol><p>​打开 AS 进入主界面，选择 <code>Plugins</code> ,点击 右上角 齿轮图标并选择 <code>Install Plugin from Disk...</code></p><p><img src="https://gcore.jsdelivr.net/gh/Discover999/TyporaPic@master/image-20221020103046364.png" alt="image-20221020103046364"></p><ol start="7"><li><strong>找到并选择刚刚解压的 <code>.jar</code> 文件，点击 OK</strong></li></ol><p>​(如果提示版本不兼容请重新下载适合你 AS 版本的插件）</p><p>​</p><p><img src="https://gcore.jsdelivr.net/gh/Discover999/TyporaPic@master/image-20221020103436991.png" alt="image-20221020103436991"></p><ol start="8"><li><strong>重启 AndroidStudio</strong></li></ol><p><img src="https://gcore.jsdelivr.net/gh/Discover999/TyporaPic@master/image-20221020103534569.png" alt="image-20221020103534569"></p><ol start="9"><li><p><strong>汉化完成</strong></p><p><img src="https://gcore.jsdelivr.net/gh/Discover999/TyporaPic@master/image-20221020103732880.png" alt="image-20221020103732880"></p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+            <tag> Android Studio </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Replit 搭建 subconverter 订阅转换</title>
       <link href="/2022/10/19/replit-subconverter/"/>
       <url>/2022/10/19/replit-subconverter/</url>
